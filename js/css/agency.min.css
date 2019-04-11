@@ -16,6 +16,7 @@ a {
     color: #86C232
 }
 
+
 a:hover {
     color: #86C232
 }
@@ -118,7 +119,6 @@ img::-moz-selection {
 #mainNav .navbar-brand {
     color: #86C232;
     font-family: 'Playball', cursive;
-
 }
 
 #mainNav .navbar-brand.active,
@@ -178,10 +178,8 @@ img::-moz-selection {
     header.masthead {
         text-align: center;
         color: #fff;
-        background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(../img/workstation1.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/workstation1.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -706,10 +704,11 @@ img::-moz-selection {
         outline: 0;
         background-color: #212529
     }
-    
+
 
     ul.social-buttons li a:active,
     ul.social-buttons li a:focus,
     ul.social-buttons li a:hover {
         background-color: #86C232
-    }}
+    }
+}

@@ -120,6 +120,11 @@ img::-moz-selection {
     font-family: 'Playball', cursive;
 
 }
+.btn-lg{
+    background:#86C232;
+    color:white;
+
+}
 
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
